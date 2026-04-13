@@ -1,0 +1,36 @@
+{
+  "boxes": {
+    "BOX_42": {
+      "location": "RACK_02",
+      "status": "stored",
+      "history": [
+        {
+          "from": "RACK_01",
+          "to": "RACK_02",
+          "time": "11:19:49"
+        }
+      ]
+    },
+    "BOX_01": {
+      "location": "GROUND_01",
+      "status": "stored",
+      "history": [
+        {
+          "from": "RACK_B",
+          "to": "GROUND_01",
+          "time": "11:20:30"
+        }
+      ]
+    }
+  },
+  "racks": {
+    "RACK_01": [],
+    "RACK_02": [
+      "BOX_42"
+    ],
+    "RACK_B": [],
+    "GROUND_01": [
+      "BOX_01"
+    ]
+  }
+}
